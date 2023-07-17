@@ -1,0 +1,22 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.card{
+    background: linear-gradient(48deg,blue, aqua);
+    padding: 20px;
+    border-radius: 20px;
+    color: #fff;
+}
+
+button{
+    background-color: black;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 800;
+}
